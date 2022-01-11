@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1025</width>
+    <height>545</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>篮球联赛个人数据处理系统</string>
+  </property>
+  <property name="layoutDirection">
+   <enum>Qt::LeftToRight</enum>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QTableView" name="ShowInfotableView">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>1031</width>
+      <height>471</height>
+     </rect>
+    </property>
+    <property name="editTriggers">
+     <set>QAbstractItemView::NoEditTriggers</set>
+    </property>
+    <property name="selectionBehavior">
+     <enum>QAbstractItemView::SelectRows</enum>
+    </property>
+    <property name="textElideMode">
+     <enum>Qt::ElideRight</enum>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1025</width>
+     <height>26</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menu">
+    <property name="title">
+     <string>文件</string>
+    </property>
+    <addaction name="actionOpen"/>
+    <addaction name="separator"/>
+    <addaction name="actionSave"/>
+   </widget>
+   <widget class="QMenu" name="menu_2">
+    <property name="title">
+     <string>信息输入</string>
+    </property>
+    <addaction name="actionbaoming"/>
+    <addaction name="separator"/>
+   </widget>
+   <widget class="QMenu" name="menu_3">
+    <property name="title">
+     <string>信息输出</string>
+    </property>
+    <addaction name="actionhengji"/>
+    <addaction name="actionxianshibaom"/>
+    <addaction name="actionlingjiangmingdan"/>
+    <addaction name="separator"/>
+    <addaction name="actionmingdanshaixuan"/>
+   </widget>
+   <addaction name="menu"/>
+   <addaction name="menu_2"/>
+   <addaction name="menu_3"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <widget class="QToolBar" name="toolBar">
+   <property name="windowTitle">
+    <string>toolBar</string>
+   </property>
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+   <addaction name="actionOpen"/>
+   <addaction name="actionSave"/>
+   <addaction name="separator"/>
+   <addaction name="actionbaoming"/>
+   <addaction name="separator"/>
+   <addaction name="actionxianshibaom"/>
+   <addaction name="actionhengji"/>
+   <addaction name="actionlingjiangmingdan"/>
+   <addaction name="separator"/>
+   <addaction name="actionmingdanshaixuan"/>
+  </widget>
+  <action name="actionOpen">
+   <property name="text">
+    <string>打开文件...</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+O</string>
+   </property>
+  </action>
+  <action name="actionSave">
+   <property name="text">
+    <string>保存文件...</string>
+   </property>
+  </action>
+  <action name="actionbaoming">
+   <property name="text">
+    <string>添加</string>
+   </property>
+  </action>
+  <action name="actionhengji">
+   <property name="text">
+    <string>球员个人数据汇总表</string>
+   </property>
+  </action>
+  <action name="actionxianshibaom">
+   <property name="text">
+    <string>比赛数据</string>
+   </property>
+  </action>
+  <action name="actionlingjiangmingdan">
+   <property name="text">
+    <string>技术项目排名</string>
+   </property>
+  </action>
+  <action name="actionmingdanshaixuan">
+   <property name="text">
+    <string>球队优秀球员</string>
+   </property>
+   <property name="toolTip">
+    <string>研究用表</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

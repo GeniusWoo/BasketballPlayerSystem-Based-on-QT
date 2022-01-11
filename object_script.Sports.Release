@@ -1,0 +1,15 @@
+release/game.o
+release/gametable.o
+release/main.o
+release/mainwindow.o
+release/player.o
+release/playerstable.o
+release/readonlydelegate.o
+release/selectdialog.o
+release/selectitem.o
+release/signupdialog.o
+release/qrc_logo.o
+release/moc_mainwindow.o
+release/moc_selectdialog.o
+release/moc_selectitem.o
+release/moc_signupdialog.o

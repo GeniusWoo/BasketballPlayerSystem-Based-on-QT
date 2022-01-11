@@ -1,0 +1,15 @@
+debug/game.o
+debug/gametable.o
+debug/main.o
+debug/mainwindow.o
+debug/player.o
+debug/playerstable.o
+debug/readonlydelegate.o
+debug/selectdialog.o
+debug/selectitem.o
+debug/signupdialog.o
+debug/qrc_logo.o
+debug/moc_mainwindow.o
+debug/moc_selectdialog.o
+debug/moc_selectitem.o
+debug/moc_signupdialog.o
