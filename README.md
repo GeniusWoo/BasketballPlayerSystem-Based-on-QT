@@ -1,5 +1,6 @@
 # BasketballPlayerSystem-Based-on-QT
 A system for the data of basketball players, including name, teams' name, three-pointer num, rebound num, dunk num, score and date of each match.
+
 基于QT的篮球联赛个人技术数据处理系统项目，该系统在磁盘上存贮如下信息：1．每场球赛的个人技术数据，一场球一个人的技术数据包括：姓名、所属队名、三分球个数、篮板球个数、扣篮成功次数、抢断次数、得分，比赛日期。2．个人技术数据汇总表。表中反映了每个人的技术数据的累计结果。表项为：姓名、三分球总数、篮板球总数、扣篮成功总次数、抢断总次数、得分总数、比赛场数。
  
  系统打开后，单击打开文件，会依次跳出两个文件选择窗口  
